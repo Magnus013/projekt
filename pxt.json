@@ -7,7 +7,8 @@
         "pxt-fischertechnik-calliope": "github:mkleinsb/pxt-fischertechnik-calliope#v0.0.6",
         "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
         "radio": "*",
-        "CO2-Sensor-SCD40": "github:calliope-edu/co2-sensor-scd40#8557b8a5b2d52ad3026e33000ee29db0c96eff2a"
+        "CO2-Sensor-SCD40": "github:calliope-edu/co2-sensor-scd40#8557b8a5b2d52ad3026e33000ee29db0c96eff2a",
+        "warte bis...": "github:calliope-edu/warte-bis#208c664d13fa2cd76d976828347fd2d9dd5fa725"
     },
     "files": [
         "main.blocks",

@@ -90,6 +90,135 @@ basic.forever(function () {
         basic.setLedColor(0x00ff00)
         led.setBrightness(255)
         music.playMelody("F F G G A A B C5 ", 120)
+        music.stopAllSounds()
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # . # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # . . . #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # . # # #
+            # . . . #
+            # # # . #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # . . # #
+            # . . . #
+            # # . . #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # . . . #
+            # . . . #
+            # . . . #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # . . . .
+            # . . . #
+            . . . . #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # . . . .
+            . . . . .
+            . . . . #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            . . . . .
+            . . . . .
+            . . . . .
+            # # # # #
+            `)
+        basic.showLeds(`
+            . # # # #
+            . . . . .
+            . . . . .
+            . . . . .
+            # # # # .
+            `)
+        basic.showLeds(`
+            . . # # #
+            . . . . .
+            . . . . .
+            . . . . .
+            # # # . .
+            `)
+        basic.showLeds(`
+            . . . # #
+            . . . . .
+            . . . . .
+            . . . . .
+            # # . . .
+            `)
+        basic.showLeds(`
+            . . . . #
+            . . . . .
+            . . . . .
+            . . . . .
+            # . . . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.showString("GAME OVER")
+        basic.showIcon(IconNames.Target)
     } else if (status == 3) {
         basic.showLeds(`
             . # . # .
@@ -101,5 +230,134 @@ basic.forever(function () {
         basic.setLedColor(0xff0000)
         led.setBrightness(255)
         music.playMelody("C5 B A G G G F F ", 120)
+        music.stopAllSounds()
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # . # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # . . . #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # . # # #
+            # . . . #
+            # # # . #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # . . # #
+            # . . . #
+            # # . . #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # . . . #
+            # . . . #
+            # . . . #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # . . . .
+            # . . . #
+            . . . . #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # . . . .
+            . . . . .
+            . . . . #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            . . . . .
+            . . . . .
+            . . . . .
+            # # # # #
+            `)
+        basic.showLeds(`
+            . # # # #
+            . . . . .
+            . . . . .
+            . . . . .
+            # # # # .
+            `)
+        basic.showLeds(`
+            . . # # #
+            . . . . .
+            . . . . .
+            . . . . .
+            # # # . .
+            `)
+        basic.showLeds(`
+            . . . # #
+            . . . . .
+            . . . . .
+            . . . . .
+            # # . . .
+            `)
+        basic.showLeds(`
+            . . . . #
+            . . . . .
+            . . . . .
+            . . . . .
+            # . . . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.showString("GAME OVER")
+        basic.showIcon(IconNames.Target)
     }
 })
