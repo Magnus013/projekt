@@ -1,0 +1,32 @@
+{
+    "name": "Projekt",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v2": "*",
+        "pxt-fischertechnik-calliope": "github:mkleinsb/pxt-fischertechnik-calliope#v0.0.6",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "radio": "*",
+        "CO2-Sensor-SCD40": "github:calliope-edu/co2-sensor-scd40#8557b8a5b2d52ad3026e33000ee29db0c96eff2a"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.28",
+        "tag": "v6.0.28",
+        "commits": "https://github.com/microsoft/pxt-calliope/commits/0de6e9a3947686a88380ad08ae6ee4c926ca5b19",
+        "target": "6.0.28",
+        "pxt": "9.0.15",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
